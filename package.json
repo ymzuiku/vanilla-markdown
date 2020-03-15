@@ -1,0 +1,30 @@
+{
+  "name": "vanilla-markdown",
+  "version": "1.0.0",
+  "main": "umd/index.js",
+  "types": "umd/index.d.ts",
+  "private": false,
+  "scripts": {
+    "lib": "node rollup.config.js"
+  },
+  "devDependencies": {
+    "rollup": "^2.0.2",
+    "rollup-plugin-typescript2": "^0.26.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "^3.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymzuiku/vanilla-markdown.git"
+  },
+  "bugs": {
+    "url": "git+https://github.com/ymzuiku/vanilla-markdown.git"
+  },
+  "homepage": "git+https://github.com/ymzuiku/vanilla-markdown.git",
+  "dependencies": {
+    "@types/marked": "^0.7.3",
+    "@types/mermaid": "^8.2.1",
+    "marked": "^0.8.0",
+    "mermaid": "^8.4.8"
+  }
+}
