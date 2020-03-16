@@ -1,10 +1,15 @@
 const css = `
+.vmdb {
+  -moz-user-select:auto !important; 
+  -webkit-user-select:auto !important;
+  -ms-user-select:auto !important;
+  user-select:auto !important;
+}
 .vmdb .octicon {
   display: inline-block;
   fill: currentColor;
   vertical-align: text-bottom;
 }
-
 .vmdb .anchor {
   float: left;
   line-height: 1;

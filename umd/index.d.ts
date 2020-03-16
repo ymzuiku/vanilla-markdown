@@ -1,3 +1,3 @@
 import "./githubCss";
-declare function MarkdownView(md: string): HTMLDivElement;
-export default MarkdownView;
+declare function VanillaMarkdown(md: string): HTMLDivElement;
+export default VanillaMarkdown;

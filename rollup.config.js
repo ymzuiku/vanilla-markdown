@@ -38,7 +38,7 @@ const watchOptions = [
     output: {
       file: './umd/index.js',
       format: 'umd',
-      name: 'vanillaNavi',
+      name: 'VanillaMarkdown',
       sourcemap: true,
       globals: {
         marked: 'marked',
