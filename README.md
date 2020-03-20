@@ -28,10 +28,12 @@ const element = VanillaMarkdown(`
 
 function Home(){
   const ref = React.useRef();
+
   useEffect(()=>{
     ref.current.appendChild(element);
   }, [])
-  return <div ref={ref} >
+
+  return <div ref={ref} />
 }
 ```
 
