@@ -11,7 +11,7 @@ import VanillaMarkdown from 'vanilla-markdown'
 const element = VanillaMarkdown(`
 # Hello
 > markdown
-`
+`)
 document.body.append(element);
 ```
 
@@ -24,7 +24,7 @@ import VanillaMarkdown from 'vanilla-markdown'
 const element = VanillaMarkdown(`
 # Hello
 > markdown
-`
+`)
 
 function Home(){
   const ref = React.useRef();
@@ -35,6 +35,12 @@ function Home(){
 
   return <div ref={ref} />
 }
+```
+
+## Only in html example
+
+```html
+
 ```
 
 ## Can Use mermaid print graph: 

@@ -111,5 +111,5 @@ function VanillaMarkdown(md: string, isGetMoc?: boolean) {
 
   return view;
 }
-
+(window as any).VanillaMarkdown = VanillaMarkdown;
 export default VanillaMarkdown;
